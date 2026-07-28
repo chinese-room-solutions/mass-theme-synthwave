@@ -69,15 +69,16 @@
 --mass-log-err:    #fe4450;
 
 /* Neon halos (var hooks in the SDK's and MASS's component styles; themes
-   that don't set them get no glow). */
---mass-glow-primary: 0 0 10px rgba(255,126,219,.65), 0 0 24px rgba(255,126,219,.35);
---mass-glow-focus:   0 0 8px rgba(255,126,219,.55), 0 0 20px rgba(255,126,219,.25);
---mass-glow-danger:  0 0 10px rgba(254,68,80,.55), 0 0 22px rgba(254,68,80,.3);
---mass-glow-success: 0 0 6px rgba(114,241,184,.6), 0 0 14px rgba(114,241,184,.35);
---mass-glow-panel:   0 0 22px rgba(255,126,219,.22);
---mass-glow-heading: 0 0 12px rgba(255,126,219,.5);
---mass-glow-tab:     0 0 10px rgba(255,126,219,.75);
---mass-glow-logo:    drop-shadow(0 0 6px rgba(255,126,219,.6));
+   that don't set them get no glow). Soft blooms tuned so adjacent halos die
+   out before they merge. */
+--mass-glow-primary: 0 0 6px rgba(255,126,219,.4), 0 0 14px rgba(255,126,219,.16);
+--mass-glow-focus:   0 0 5px rgba(255,126,219,.35), 0 0 12px rgba(255,126,219,.12);
+--mass-glow-danger:  0 0 6px rgba(254,68,80,.35), 0 0 13px rgba(254,68,80,.14);
+--mass-glow-success: 0 0 4px rgba(114,241,184,.45), 0 0 8px rgba(114,241,184,.18);
+--mass-glow-panel:   0 0 14px rgba(255,126,219,.12);
+--mass-glow-heading: 0 0 8px rgba(255,126,219,.3);
+--mass-glow-tab:     0 0 8px rgba(255,126,219,.45);
+--mass-glow-logo:    drop-shadow(0 0 4px rgba(255,126,219,.4));
 
 /* Primary scale rebased on hot pink (#ff7edb at 400), ramped to near-white at
    50 and near-black at 950 with the hue held — mirroring how the built-in dark
